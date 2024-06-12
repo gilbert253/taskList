@@ -41,32 +41,6 @@ listDiv.addEventListener("click", (e) => {
 
 
 const showData = () => {
-listDiv.innerHTML = localstoreage.getItem("data")
+listDiv.innerHTML = localStorage.getItem("data")
 }
 showData()
-
-/*
-const taskCreation = () => {
-    listDiv.innnerHTML = `<li class="list">${input.value}</li>`
-}
-
-const radioStrike = () => {
-    list.innerHTML = `list.strike()`
-}
-
-btn.addEventListener("click", taskCreation)
-//radio.addEventListener("click", radioStrike)
-
-
-
-need to have a growing list of tasks
-ability to click x to delete
-ability to click check and cross it out
-date field would be good
-
-
-if input is submitted a task with that text is created
-input text should be saved on local storage
-if check radio is clicked then strikethrougho on text
-if x is clicked then task is deleted
-*/
