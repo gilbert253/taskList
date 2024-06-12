@@ -20,6 +20,7 @@
 }
 input{
     padding: 0;
+    margin: auto;
     position: relative;
 }
 button{
