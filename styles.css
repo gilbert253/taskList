@@ -6,11 +6,25 @@
 }
 .header-div{
     padding: 10px;
-    background-color: blueviolet;
-    border-radius: 10%;
+    background-color: teal;
+    border-radius: 5%;
+    width: 100px;
+    margin: 15px auto 15px;
 }
 .header{
     font-size: medium;
+    margin: auto;
+    padding: 0;
+    color: white;
+}
+input{
+    margin: 0 37% 0;
+    padding: 0;
+    position: relative;
+}
+button{
+    position: relative;
+    margin: 0 46%
 }
 li span{
     position: absolute;
