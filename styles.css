@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: tahoma, sans-serif;
+}
+.header-div{
+    padding: 10px;
+    background-color: blueviolet;
+    border-radius: 10%;
+}
+.header{
+    font-size: medium;
+}
+li span{
+    position: absolute;
+    right: 5%;
+    border-radius: 50%;
+}
+li span:hover{
+    background: grey
+}li.checked{
+    text-decoration: line-through;
+}
