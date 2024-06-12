@@ -16,6 +16,7 @@
     margin: auto;
     padding: 0;
     color: white;
+    position: relative
 }
 input{
     margin: 0 37% 0;
