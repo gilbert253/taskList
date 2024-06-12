@@ -19,13 +19,11 @@
     position: relative
 }
 input{
-    margin: 0 37% 0;
     padding: 0;
     position: relative;
 }
 button{
     position: relative;
-    margin: 0 46%
 }
 li span{
     position: absolute;
